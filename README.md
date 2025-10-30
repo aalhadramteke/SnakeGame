@@ -7,13 +7,13 @@ Game Setup :-
 Initializes score tracking with a display at the top of the screen
 
 Game Mechanics :- 
-The snake moves in 20-pixel increments
-When the snake eats food (gets within 20 pixels):
+1. The snake moves in 20-pixel increments
+2. When the snake eats food (gets within 20 pixels):
 A new green segment is added to the snake's body
 Score increases by 10 points
 Game speed slightly increases (delay decreases)
 Food reappears at a random location
-The game ends if:
+3. The game ends if:
 The snake hits the border (beyond 290 pixels from center)
 The snake collides with its own body
 After game over, the snake resets to center position, segments disappear, and score resets to 0
