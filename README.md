@@ -9,18 +9,17 @@ Game Setup :-
 Game Mechanics :-
 
 1) The snake moves in 20-pixel increments.
-
 2) When the snake eats food (gets within 20 pixels):
+   
+A new green segment is added to the snake's body
+Score increases by 10 points
+Game speed slightly increases (delay decreases)
+Food reappears at a random location
 
-a) A new green segment is added to the snake's body
-b) Score increases by 10 points
-c) Game speed slightly increases (delay decreases)
-d) Food reappears at a random location
+4) The game ends if:
+The snake hits the border (beyond 290 pixels from center).
+The snake collides with its own body.
 
-3) The game ends if:
-a) The snake hits the border (beyond 290 pixels from center).
-b) The snake collides with its own body.
-
-4) After game over, the snake resets to center position, segments disappear, and score resets to 0.
+After game over, the snake resets to center position, segments disappear, and score resets to 0.
 
 The game runs in an infinite loop, continuously updating the screen and checking for collisions, making it a fully functional Snake game implementation.
