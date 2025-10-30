@@ -12,10 +12,10 @@ Game Mechanics :-
 
 2) When the snake eats food (gets within 20 pixels):
 
-a) A new green segment is added to the snake's body.
-b) Score increases by 10 points.
-c) Game speed slightly increases (delay decreases).
-d) Food reappears at a random location.
+a) A new green segment is added to the snake's body
+b) Score increases by 10 points
+c) Game speed slightly increases (delay decreases)
+d) Food reappears at a random location
 
 3) The game ends if:
 a) The snake hits the border (beyond 290 pixels from center).
