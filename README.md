@@ -1,9 +1,9 @@
 Classic Snake Game :- This is a Snake game implementation using Python's turtle graphics module.
 
 Game Setup :- 
-Created in a 600x600 pixel black window with the title "Snake Game by @aalhadramteke"
-Sets up a yellow square as the snake's head starting at the center
-Places a red circle as food at position (0, 100)
+1) Created in a 600x600 pixel black window with the title "Snake Game by @aalhadramteke"
+2) Sets up a yellow square as the snake's head starting at the center
+3) Places a red circle as food at position (0, 100)
 Initializes score tracking with a display at the top of the screen
 
 Game Mechanics :- 
